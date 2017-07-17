@@ -1,0 +1,8 @@
+applications:
+- name: crystal-hello-world-manifest
+  memory: 512M
+  instances: 1
+  timeout: 180
+  #path: built-project/demo.jar
+  env:
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urando
